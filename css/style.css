@@ -71,9 +71,12 @@ body{
     
 }
 
+
 /*.grid 안에 써줘야 한다 .inner 에 써주면 알아듣지 못함.*/
 
-.p1{ background-color: #EB1576; }
+
+/*
+.p1{ background-color: #EB1576;}
 .p2{ background-color: #D7BD60; }
 .p3{ background-color: #EB1576; }
 .p4{ background-color: #D7BD60; }
@@ -82,6 +85,7 @@ body{
 .p7{ background-color: #EB1576; }
 .p8{ background-color: #D7BD60; }
 .p9{ background-color: #EB1576;}
+*/
 
 .grid .inner{
     
@@ -91,17 +95,19 @@ body{
     color: white;
     /*커서 손모양*/
     cursor: pointer;
-    transition: all 0.3s linear;
+    
     
 }
 
 
-.grid .inner:hover{
-    border-radius: 100px 0 0 0;
+.grid img{
+    width: 100%;
+    
 }
 
 
 .grid:nth-child(1){
+    
     width: 33%;
     
 }
@@ -129,5 +135,7 @@ body{
 .grid:nth-child(9){
     width: 33%;
 }
+
+
 
 
