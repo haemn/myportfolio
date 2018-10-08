@@ -8,7 +8,7 @@
 .header{
    
     
-    margin: 40px auto;
+    margin: 30px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,6 +24,17 @@ h3{
     font-family: Lato, sans-serif;
     
 }
+
+h4{
+     margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: Verdana;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 
 .resume{
     display: flex;
@@ -91,12 +102,14 @@ body{
 
 */
 
+/*
 .p1:hover{
     background-image: url("../img/hover-01.png");
     width:100%;
     z-index: 9999;
     
 }
+*/
 
 .grid .inner{
     
@@ -159,4 +172,5 @@ body{
    margin-bottom: 120px;
     margin-top: 80px;
 }
+
 
