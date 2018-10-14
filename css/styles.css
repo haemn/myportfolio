@@ -43,30 +43,39 @@ html {
 }
 
 h3{
+    
+/*    margin-top: 30px;*/
     font-family: Lato, sans-serif;
     
 }
 
+
 h4{
-     margin-top: 30px;
-    margin-bottom: 20px;
-    font-family: Verdana;
-/*
+   
+    
+    font-family: Lato;
     display: flex;
     align-items: center;
     justify-content: center;
-*/
+    color: #e7155e;
     
 }
 
-h5{
-    margin-top: 50px;
+h6{
+   
     
     font-family: Lato;
     display: flex;
     align-items: center;
     justify-content: center;
     
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+/*    color: #e7155e;*/
 }
 
 .resume{
